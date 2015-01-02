@@ -1,0 +1,26 @@
+ enquête nationale sur les structure des urgences hospitalières, juin 2013
+ =========================================================================
+ 
+ Rangement: Resural/
+
+source [DREES](http://www.data.drees.sante.gouv.fr/ReportFolders/reportFolders.aspx?IF_ActivePath=P,432,507) et sur cette [page](http://www.drees.sante.gouv.fr/enquete-nationale-sur-les-structures-des-urgences,11113.html)
+
+Population: tous les patients s'étant présentés aux urgences le 11 juin 2013.
+
+NB: la Drees recense 736 points d'accueil hospitaliers ayant une autorisation d'activité des urgences.
+
+L’utilisation est libre sous réserve de mentionner la source: DREES, enquête nationale sur les structure des urgences hospitalières, juin 2013.
+
+La page consacrée à cette enquête sur le site de la Drees comporte 3 onglets:
+
+- Rapports: sert de table des matières. Pour consulter les différents tableaux, passer par cette page.
+- Tableau: c'est là qu'on peut téléchérger les différents tableaux au format xls, csv (virgule ou point-virgule).
+- Graphiques: pas utiles
+
+Fichiers téléchargés sur le site. Tous les fichiers sont en _latin1_. Les fichiers _xls_ contiennent des chiffres décimaux à virgules. 
+
+- BD_structure_enquete.xls et BD_structure_enquete.csv
+- tableau 1:
+- tableau 2:
+- tableau 3: raison du recours aux urgences. Ce tableau comporte une colonne France entière puis une colonne par région. Il fait le total des lignes , tous ages confondus. Il est possible de télécharger différents tableau par classes d'age (je ne l'ai pas fait).
+- tableau 4
