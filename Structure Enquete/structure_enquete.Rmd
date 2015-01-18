@@ -1,0 +1,36 @@
+---
+title: "Structure de l'enquête"
+author: "jcb"
+date: "18 janvier 2015"
+output: html_document
+---
+
+Le document structure de l'enqête contient la liste des services d'urgences de France recensés par la DREES.
+
+```{}
+path <- "../"
+file <- "data/BD_structure_enquete.csv"
+d.su <- read.csv(paste0(path, file), fileEncoding = "latin1")
+dim(d.su)
+
+```
+Le fichier __BD_structure_enquete.csv__ comporte 734 lignes correspondants aux SU et 223 colonnes.
+On isole des données de l'Alsace en utilisant le code de la colonne 1 qui commence par le chiffre du département:
+
+```{}
+d.al <- d.su[substr(d.su$id_point_d_accueil, 1, 2) %in% c("67", "68"), ]
+save(d.al, file = "data_alsace.Rda")
+```
+
+Chargement des données Alsace:
+
+```{r init}
+load(data_alsace.Rda, fileEncoding = "latin1") # fichier d.al
+d.al$ID_A1 <- factor(d.al$ID_A1)
+
+# dataframe "utile" : Finess, nom, nb de passages
+d <- d.al[, c("ID_A2", "ID_A1", "ID_A103")]
+
+```
+
+
