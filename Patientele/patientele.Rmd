@@ -1,0 +1,16 @@
+---
+title: "Tableau 2 - Patientèle"
+author: "jcb"
+date: "17 janvier 2015"
+output: html_document
+---
+
+Patientèle
+
+```{r}
+file1 <- "data/urgences-tab2-patientele-v2_71194558185810_alsace.csv"
+file2 <- "data/urgences-tab2-patientele-v2_71194156779560.csv"
+
+d1 <- read.csv(file1, header = TRUE, skip = 2, fileEncoding = "latin1", blank.lines.skip = TRUE)
+```
+
