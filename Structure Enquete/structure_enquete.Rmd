@@ -25,12 +25,24 @@ save(d.al, file = "data_alsace.Rda")
 Chargement des données Alsace:
 
 ```{r init}
-load(data_alsace.Rda, fileEncoding = "latin1") # fichier d.al
+load("data_alsace.Rda") # fichier d.al
 d.al$ID_A1 <- factor(d.al$ID_A1)
 
 # dataframe "utile" : Finess, nom, nb de passages
 d <- d.al[, c("ID_A2", "ID_A1", "ID_A103")]
+```
+
+nb de RPU le 11 juin 2013
+-------------------------
+```{)
+load("/home/jcb/Documents/Resural/Stat Resural/RPU_2013/rpu2013d0112_2.Rda")
+rpu.11juin <- d1[as.Date(d1$ENTREE) == "2013-06-11",]
+save(rpu.11juin, file = "rpu.11juin.Rda")
+
+tapply(as.Date(rpu.11juin$ENTREE), rpu.11juin$FINESS, length)
 
 ```
 
+- sortie SMUR: 0 sorties pour Strasbourg, Saverne, Sélestat ???
+- le nombre de passages aux urgences pour certains établissement parait aberrant.
 

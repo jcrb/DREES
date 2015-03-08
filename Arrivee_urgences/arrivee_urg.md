@@ -1,16 +1,11 @@
----
-title: "arrive_urgences"
-author: "jcb"
-date: "16 janvier 2015"
-output:
-  html_document:
-    keep_md: yes
-    toc: yes
----
+# arrive_urgences
+jcb  
+16 janvier 2015  
 
 Lecture du fichier urgences-tab1-arriveeurgence. Les fichiers sont encodés au format windows, latin1, alors que R attend des fichiers en UTF-8. Il faut donc imposer avec __fileEncoding__ la forme latin1.
 
-```{r}
+
+```r
 path <- "../"
 file1 <- paste0(path, "data/urgences-tab1-arriveeurgence-v5_58262602095995.csv") # toute la France
 file2 <- paste0(path, "data/urgences-tab1-arriveeurgence-v5_58263739908495.csv") #  Alsace
@@ -19,7 +14,6 @@ d1 <- read.csv(file1, header = TRUE, skip = 2, fileEncoding = "latin1", blank.li
 d1 <-d1[-1,] # supprime la ligne 1 qui est vide
 d2 <- read.csv(file2, header = TRUE, skip = 2, fileEncoding = "latin1", blank.lines.skip = TRUE)
 d2 <-d2[-1,]
-
 ```
 
 
@@ -41,7 +35,8 @@ Commentaires
 Heures d'arrivée
 ================
 
-```{r admission}
+
+```r
 par(mar = c(4,4,4,2))
 ad.names <- c("8-12H", "12-16H", "16-20H", "20-0H", "0-4H", "4-8H")
 
@@ -57,23 +52,25 @@ col <- c("yellow", "pale green")
 x <- barplot(t2, beside = TRUE, main = "Heures d'entrée aux urgences", ylab = "%", ylim = c(0,30), col = col)
 text(x, 2, paste0(round(t2,1), "%"), , srt = 90)
 legend("topright", bty = "n", legend = c("France", "Alsace"), col=col, pch = 16)
+```
 
+![](arrivee_urg_files/figure-html/admission-1.png) 
+
+```r
 # affichage horizontal
 x <- barplot(t2, beside = TRUE, main = "Heures d'entrée aux urgences", ylab = "%", xlim = c(0,30), col = col, horiz = TRUE)
 text(t2+2, x, paste0(round(t2,1), "%"))
 legend("topright", bty = "n", legend = c("France", "Alsace"), col=col, pch = 15, cex = 1.2)
-
 ```
+
+![](arrivee_urg_files/figure-html/admission-2.png) 
 Plus de passages la nuit en Alsace mais moins en journée que la moyenne nationale
 
 Ensemble des patients qu'ils soient venus ou non aux urgences au cours des 7 derniers jours
 ===========================================================================================
-```{r sept}
+
+```r
 sem2 <- as.numeric(as.vector(d2[59:64, 2]))
 n <- sem2[1] - sem2[6] # nb interrogé
-
-
-
-
 ```
 
