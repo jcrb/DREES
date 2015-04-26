@@ -25,7 +25,7 @@ save(d.al, file = "data_alsace.Rda")
 Chargement des données Alsace:
 
 ```{r init}
-load("data_alsace.Rda") # fichier d.al
+load("../data_alsace.Rda") # fichier d.al
 d.al$ID_A1 <- factor(d.al$ID_A1)
 
 # dataframe "utile" : Finess, nom, nb de passages
@@ -45,4 +45,46 @@ tapply(as.Date(rpu.11juin$ENTREE), rpu.11juin$FINESS, length)
 
 - sortie SMUR: 0 sorties pour Strasbourg, Saverne, Sélestat ???
 - le nombre de passages aux urgences pour certains établissement parait aberrant.
+
+Hôpital en tension
+------------------
+```{}
+ ID_A77    ="Plan hopital en tension";
+ ID_A78	="Cellule de veille quotidienne identifiee";
+ ID_A79	="Suivi quotidien d indicateurs de tensions";
+ ID_A80	="Cellule de crise restreinte en cas de tension";
+ ID_A81	="Action de libération de lits";
+ ID_A82	="Action de collaboration entre établissements d un meme territoire de sante";
+ ID_A83	="Nombre de déclenchements d actions de collaboration entre établissements d un meme territoire de sante";
+ ID_A84	="Nombre de jours de déclenchements d actions de collaboration entre établissements d un meme territoire de sante";
+ ID_A85	="Autres initiatives prises pour résoudre les problèmes d'aval";
+
+```
+Création d'un dataframe "tensions"
+```{r tensions}
+# on récupère l'intitulé du libellé des questions
+file <- "../doc/libelle_des_variables.csv"
+lib <- read.csv(file)
+# on ne garde que ce qui concerne les tensions
+lib.tension <- lib[130:137,]
+# on récupère les données + les 2 premières colonnes nom + FINESS
+tensions <- d.al[, c(1:2, 131:139)]
+# on fait la somme des actions entreprises
+actions <-apply(tensions[3:10], 2, sum, na.rm=T)
+# on ajoute au tableau des libellés la somme des actions
+lib.tension$nb <- actions
+# on rajoute une colonne pourcentage sauf pour les 2 derniers libellés
+pc <- c(round(actions[1:6] * 100/nrow(tensions), 1), NA, NA)
+lib.tension$pc <- pc
+
+# on sauvegarde le tableau
+write.csv(lib.tension, file = "tensions.csv")
+lib.tension[, -3] # colonne 3 trop longue
+
+```
+
+```{}
+
+```
+
 

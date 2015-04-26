@@ -1,0 +1,223 @@
+Code_question,Nom_question
+ ID_A1,Nom de l'etablissement
+ ID_A2,FINESS géographique
+ ID_A4,Type d'accueil
+ ID_A6,Circuit court ambulatoire
+ ID_A7,Accès direct dans des services
+ ID_A8,Accès direct en cardiologie
+ ID_A9,Accès direct en neurologie
+ID_A10,Accès direct en gynecologie
+ ID_A11,Accès direct en gériatrie
+ ID_A12,Accès direct en ophtalmologie
+ ID_A13,Accès direct dans un autre services
+ ID_A14,Participation de médecins exterieurs au service des urgences ou SMUR
+ ID_A15,ETP de la participation de médecins exterieurs au service des urgences ou SMUR
+ ID_A16,Mutualisation du personnel médical entre service des urgences et SAMU ou SMUR
+ ID_A17,Mutualisation du personnel non médical entre service des urgences et SAMU ou SMUR
+ ID_A18,Implication du médecin du SAMU ou SMUR dans les soins aux urgences
+ ID_A19,Réseau des urgences ou d'une forme de coopération entre les urgences 
+ ID_A20,Description de la forme de coopération entre les urgences 
+ ID_A21,Postes partagés entre d'autres services
+ ID_A22,Médecins partagés entre d'autres services
+ ID_A23,Autres personnels partagés entre d'autres services
+ ID_A24,Partage de postes dans le cadre d'une coopération plus large
+ ID_A25,Effectifs de médecins urgentistes Au 31/12/2012
+ ID_A26,Effectifs de médecins non urgentistes Au 31/12/2012
+ ID_A27,Effectifs d'internes au 31/12/2012
+ ID_A28,Effectifs de cadres de santé au 31/12/2012
+ ID_A29,Effectifs d'infirmiers diplomés d'Etat au 31/12/2012
+ ID_A30,Effectifs d'aides soignants au 31/12/2012
+ ID_A31,Effectifs d'agents de service hospitalier au 31/12/2012
+ ID_A32,Effectifs de secretaires au 31/12/2012
+ ID_A33,Effectifs de brancardiers au 31/12/2012
+ ID_A34,Effectifs d'autres personnels au 31/12/2012
+ ID_B25,ETP moyens mensuels travailles sur l'annee de médecins urgentistes
+ ID_B26,ETP moyens mensuels travailles sur l'annee de médecins non urgentistes
+ ID_B27,ETP moyens mensuels travailles sur l'annee d'internes
+ ID_B28,ETP moyens mensuels travailles sur l'annee de cadres de santé
+ ID_B29,ETP moyens mensuels travailles sur l'annee d infirmiers diplomés d'Etat
+ ID_B30,ETP moyens mensuels travailles sur l'annee d aides soignants
+ ID_B31,ETP moyens mensuels travailles sur l'annee d agents de service hospitalier
+ ID_B32,ETP moyens mensuels travailles sur l'annee de secretaires
+ ID_B33,ETP moyens mensuels travailles sur l'annee de brancardiers
+ ID_B34,ETP moyens mensuels travailles sur l'annee d'autres personnels
+ ID_C25,Postes vacants de médecins urgentistes (en ETP)
+ ID_C26,Postes vacants de médecins non urgentistes (en ETP)
+ ID_C27,Postes vacants d'internes (en ETP)
+ ID_C28,Postes vacants de cadres de santé (en ETP)
+ ID_C29,Postes vacants d infirmiers diplomés d'Etat (en ETP)
+ ID_C30,Postes vacants d aides soignants (en ETP)
+ ID_C31,Postes vacants d agents de service hospitalier (en ETP)
+ ID_C32,Postes vacants de secretaires (en ETP)
+ ID_C33,Postes vacants de brancardiers (en ETP)
+ ID_C34,Postes vacants d'autres personnels (en ETP)
+ ID_D25,ETP d'intérimaires de médecins urgentistes
+ ID_D26,ETP d'intérimaires de médecins non urgentistes
+ ID_D27,ETP d'intérimaires d'internes
+ ID_D28,ETP d'intérimaires de cadres de santé
+ ID_D29,ETP d'intérimaires d infirmiers diplomés d'Etat
+ ID_D30,ETP d'intérimaires d aides soignants
+ ID_D31,ETP d'intérimaires d agents de service hospitalier 
+ ID_D32,ETP d'intérimaires de secretaires
+ ID_D33,ETP d'intérimaires de brancardiers
+ ID_D34,ETP d'intérimaires d'autres personnels
+ ID_E25,Somme des heures sup de médecins urgentistes en 2012
+ ID_E26,Somme des heures sup de médecins non urgentistes en 2012
+ ID_E27,Somme des heures sup d'internes en 2012
+ ID_E28,Somme des heures sup de cadres de santé en 2012
+ ID_E29,Somme des heures sup d infirmiers diplomés d'Etat en 2012
+ ID_E30,Somme des heures sup d aides soignants en 2012
+ ID_E31,Somme des heures sup d agents de service hospitalier en 2012 
+ ID_E32,Somme des heures sup de secretaires en 2012
+ ID_E33,Somme des heures sup de brancardiers en 2012
+ ID_E34,Somme des heures sup d'autres personnels en 2012
+ ID_F25,Somme des heures stockées sur CET par des médecins urgentistes en 2012
+ ID_F26,Somme des heures stockées sur CET par des médecins non urgentistes en 2012
+ ID_F27,Somme des heures stockées sur CET par des internes en 2012
+ ID_F28,Somme des heures stockées sur CET par des cadres de santé en 2012
+ ID_F29,Somme des heures stockées sur CET par des infirmiers diplomés d'Etat en 2012
+ ID_F30,Somme des heures stockées sur CET par des aides soignants en 2012
+ ID_F31,Somme des heures stockées sur CET par des agents de service hospitalier en 2012 
+ ID_F32,Somme des heures stockées sur CET par des secretaires en 2012
+ ID_F33,Somme des heures stockées sur CET par des brancardiers en 2012
+ ID_F34,Somme des heures stockées sur CET par des autres personnels en 2012
+ ID_A35,Poste d'accueil et d orientation
+ ID_A36,Poste d'accueil et d orientation assuré par IAO
+ ID_A37,Poste d'accueil et d orientation assuré par MAO
+ ID_A38,Poste d'accueil et d orientation assuré par une autre personne
+ ID_A39,Le poste d'accueil et d orientation est assure 24h sur 24
+ ID_A40,Part des IDE formés pour le poste d'accueil et d orientation
+ ID_A41,Accueil administratif dédié 24h sur 24
+ ID_A42,Assistance sociale dans le service
+ ID_A43,Assitance sociale le week end
+ ID_A44,Gériatre pour les urgences générales
+ ID_A45,Gériatre le jour pour les urgences générales
+ ID_B45,Gériatre la nuit pour les urgences générales
+ ID_C45,Gériatre le week end pour les urgences générales
+ ID_A46,Equipe mobile gériatrique pour les urgences générales
+ ID_A47,Appel possible à un gériatre dans l'établissement
+ ID_A49,Pédiatre pour les urgences sans urgences pédiatriques
+ ID_A50,Pédiatre le jour pour les urgences sans urgences pédiatriques
+ ID_B50,Pédiatre la nuit pour les urgences sans urgences pédiatriques
+ ID_C50,Pédiatre le week end pour les urgences sans urgences pédiatriques
+ ID_A51,Psychiatre aux urgences
+ ID_A52,Psychiatre le jour aux urgences
+ ID_B52,Psychiatre la nuit aux urgences
+ ID_C52,Psychiatre le week end aux urgences
+ ID_A53,Vigile ou officier de sécurité aux urgences
+ ID_A54,Vigile ou officier de sécurité 24h sur 24
+ ID_A55,Procedure formalisee pour la réanimation pour demande d avis ou proposition de patient
+ ID_A56,Procedure formalisee pour les soins intensifs pour demande d avis ou proposition de patient
+ ID_A57,Procedure formalisee pour les soins continus pour demande d avis ou proposition de patient
+ ID_A58,Procedure formalisee pour la chirurgie pour demande d avis ou proposition de patient
+ ID_A59,Procedure formalisee pour la médecine hors gériatrie pour demande d avis ou proposition de patient
+ ID_A60,Procedure formalisee pour la gériatrie aigüe spécialisée pour demande d avis ou proposition de patient
+ ID_A61,Scanner pour le site
+ ID_A62,Disponibilite d un scanner pour le site 24h sur 24
+ ID_A63,Priorité d accès au scanner pour les urgences
+ ID_A64,IRM pour le site
+ ID_A65,Disponibilite d une IRM pour le site 24h sur 24
+ ID_A66,Priorité d accès a l IRM pour les urgences
+ ID_A67,Service de gériatrie spécialisé dans l'établissement
+ ID_A68,Nombre de lits dans le service de gériatrie spécialisé de l'établissement
+ ID_A69,Tableau de bord des lits disponibles dans l'établissement
+ ID_A70,Fréquence de mise à jour du tableau de bord des lits disponibles (par 24h)
+ ID_A71,Personnel dédié à l'inventaire des lits
+ ID_A72,Personnel dédié à l'affectation d un patient
+ ID_A73,Personnel dédié à l'affectation d un patient en dehors des urgences
+ ID_A74,Personnel dédié à l'affectation d un patient dans les urgences
+ ID_A75,Tableau de bord des lits disponibles dans l ensemble du territoire
+ ID_A76,Fréquence de mise à jour du tableau de bord des lits disponibles de l'ensemble du territoire (par 24h)
+ ID_A77,Plan hopital en tension
+ ID_A78,Cellule de veille quotidienne identifiee
+ ID_A79,Suivi quotidien d indicateurs de tensions
+ ID_A80,Cellule de crise restreinte en cas de tension
+ ID_A81,Action de libération de lits
+ ID_A82,Action de collaboration entre établissements d un meme territoire de sante
+ ID_A83,Nombre de déclenchements d actions de collaboration entre établissements d un meme territoire de sante
+ ID_A84,Nombre de jours de déclenchements d actions de collaboration entre établissements d un meme territoire de sante
+ ID_A85,Autres initiatives prises pour résoudre les problèmes d'aval
+ ID_A86,Date de l enquete
+ ID_A87,"A 8h, Nb de patients en cours d evaluation non admis"
+ ID_A88,"A 8h, Nb de patients admis et en attente d hospitalisation sur un brancard ou fauteuil roulant"
+ ID_A89,"A 8h, Nb de patients présents en lit (UHCD) qui ne sont pas en attente d hospitalisation"
+ ID_A90,"A 8h, Nb de patients présents en lit (UHCD) en attente d hospitalisation"
+ ID_A91,"A 8h, Nb d intervention SMUR en cours"
+ ID_A92,"A 8h, Nb de médecins urgentistes"
+ ID_A93,"A 8h, Nb de médecins non urgentistes"
+ ID_A94,"A 8h, Nb d internes"
+ ID_A95,"A 8h, Nb de médecins intérimaires et extérieurs"
+ ID_A96,"A 8h, Nb de cadres de santé"
+ ID_A97,"A 8h, Nb d'infirmiers diplômés d'Etat"
+ ID_A98,"A 8h, Nb d'aides soignants"
+ ID_A99,"A 8h, Nb d'agents de service hospitalier"
+ ID_A100,"A 8h, Nb de secrétaires"
+ ID_A101,"A 8h, Nb de brancardiers"
+ ID_A102,"A 8h, Nb de personnels autres"
+ ID_B87,"A 12h, Nb de patients en cours d evaluation non admis"
+ ID_B88,"A 12h, Nb de patients admis et en attente d hospitalisation sur un brancard ou fauteuil roulant"
+ ID_B89,"A 12h, Nb de patients présents en lit (UHCD) qui ne sont pas en attente d hospitalisation"
+ ID_B90,"A 12h, Nb de patients présents en lit (UHCD) en attente d hospitalisation"
+ ID_B91,"A 12h, Nb d intervention SMUR en cours"
+ ID_B92,"A 12h, Nb de médecins urgentistes"
+ ID_B93,"A 12h, Nb de médecins non urgentistes"
+ ID_B94,"A 12h, Nb d internes"
+ ID_B95,"A 12h, Nb de médecins intérimaires et extérieurs"
+ ID_B96,"A 12h, Nb de cadres de santé"
+ ID_B97,"A 12h, Nb d'infirmiers diplômés d'Etat"
+ ID_B98,"A 12h, Nb d'aides soignants"
+ ID_B99,"A 12h, Nb d'agents de service hospitalier"
+ ID_B100,"A 12h, Nb de secrétaires"
+ ID_B101,"A 12h, Nb de brancardiers"
+ ID_B102,"A 12h, Nb de personnels autres"
+ ID_C87,"A 18h, Nb de patients en cours d evaluation non admis"
+ ID_C88,"A 18h, Nb de patients admis et en attente d hospitalisation sur un brancard ou fauteuil roulant"
+ ID_C89,"A 18h, Nb de patients présents en lit (UHCD) qui ne sont pas en attente d hospitalisation"
+ ID_C90,"A 18h, Nb de patients présents en lit (UHCD) en attente d hospitalisation"
+ ID_C91,"A 18h, Nb d intervention SMUR en cours"
+ ID_C92,"A 18h, Nb de médecins urgentistes"
+ ID_C93,"A 18h, Nb de médecins non urgentistes"
+ ID_C94,"A 18h, Nb d internes"
+ ID_C95,"A 18h, Nb de médecins intérimaires et extérieurs"
+ ID_C96,"A 18h, Nb de cadres de santé"
+ ID_C97,"A 18h, Nb d'infirmiers diplômés d'Etat"
+ ID_C98,"A 18h, Nb d'aides soignants"
+ ID_C99,"A 18h, Nb d'agents de service hospitalier"
+ ID_C100,"A 18h, Nb de secrétaires"
+ ID_C101,"A 18h, Nb de brancardiers"
+ ID_C102,"A 18h, Nb de personnels autres"
+ ID_D87,"A 22h, Nb de patients en cours d evaluation non admis"
+ ID_D88,"A 22h, Nb de patients admis et en attente d hospitalisation sur un brancard ou fauteuil roulant"
+ ID_D89,"A 22h, Nb de patients présents en lit (UHCD) qui ne sont pas en attente d hospitalisation"
+ ID_D90,"A 22h, Nb de patients présents en lit (UHCD) en attente d hospitalisation"
+ ID_D91,"A 22h, Nb d intervention SMUR en cours"
+ ID_D92,"A 22h, Nb de médecins urgentistes"
+ ID_D93,"A 22h, Nb de médecins non urgentistes"
+ ID_D94,"A 22h, Nb d internes"
+ ID_D95,"A 22h, Nb de médecins intérimaires et extérieurs"
+ ID_D96,"A 22h, Nb de cadres de santé"
+ ID_D97,"A 22h, Nb d'infirmiers diplômés d'Etat"
+ ID_D98,"A 22h, Nb d'aides soignants"
+ ID_D99,"A 22h, Nb d'agents de service hospitalier"
+ ID_D100,"A 22h, Nb de secrétaires"
+ ID_D101,"A 22h, Nb de brancardiers"
+ ID_D102,"A 22h, Nb de personnels autres"
+ ID_E87,"A 8h j+1, Nb de patients en cours d evaluation non admis"
+ ID_E88,"A 8h j+1, Nb de patients admis et en attente d hospitalisation sur un brancard ou fauteuil roulant"
+ ID_E89,"A 8h j+1, Nb de patients présents en lit (UHCD) qui ne sont pas en attente d hospitalisation"
+ ID_E90,"A 8h j+1, Nb de patients présents en lit (UHCD) en attente d hospitalisation"
+ ID_E91,"A 8h j+1, Nb d intervention SMUR en cours"
+ ID_E92,"A 8h j+1, Nb de médecins urgentistes"
+ ID_E93,"A 8h j+1, Nb de médecins non urgentistes"
+ ID_E94,"A 8h j+1, Nb d internes"
+ ID_E95,"A 8h j+1, Nb de médecins intérimaires et extérieurs"
+ ID_E96,"A 8h j+1, Nb de cadres de santé"
+ ID_E97,"A 8h j+1, Nb d'infirmiers diplômés d'Etat"
+ ID_E98,"A 8h j+1, Nb d'aides soignants"
+ ID_E99,"A 8h j+1, Nb d'agents de service hospitalier"
+ ID_E100,"A 8h j+1, Nb de secrétaires"
+ ID_E101,"A 8h j+1, Nb de brancardiers"
+ ID_E102,"A 8h j+1, Nb de personnels autres"
+ ID_A103,Nombre de passages sur les 24 heures
+ ID_A104,Nombre d'intervention SMUR sur les 24 h
+ ID_A105,Durée totale cumulée des interventions SMUR
